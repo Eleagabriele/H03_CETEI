@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Franz Josef Graf Saurau an Joseph von Hammer-Purgstall</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Walter Hölfechner</p>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <editor>Walter Höflechner</editor>
+               <title>Joseph von Hammer-Purgstall Briefedition</title>
+               <ptr target="http://gams.uni-graz.at/hp" />
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <div type="letter">
+            <head>Franz Josef Graf Saurau an Joseph von Hammer-Purgstall</head>
+            <opener>
+               <dateline><date when="1806-11-11">1806 XI 11</date>, <placeName>Graz</placeName></dateline>
+               <salute>Verehrtester Freund!</salute>
+            </opener>
+            <p>Auch ohne mit einer
+               besonderen Prophetenweihe begabt zu sein, läßt das Tableau der neuesten Begegenheiten
+               voraussehen, daß die Fürsten <persName>YPSILANTI</persName> und <persName>MORUSI</persName>, deren
+               Wiedereinsetzung Sie mir zu erinnern die Güte hatten, ihre Fürstenstühle bald wieder zu
+               verlassen in den Fall kommen werden. Die beispiellosen Kriegsbegebenheiten im Norden, wo
+               eine zahlreiche, geübte, mit großen Namen prangende, furchtbare und von gelehrten und
+               tapferen Feldherren angeführte Armee wie Spreu zerstreut wird [sic] und die ganze
+               preussische Macht wie Rauch verschwindet, dürfte wohl den wankelmütigen Diwan bewegen, alles
+               auf Rechnung eines Mißverstehens zu schreiben, die vertriebenen Fürsten wieder einzusetzen
+               und mehr den Zorn <persName>NAPOLEON</persName>s als die Drohungen des russischen und englischen Ministers zu
+               fürchten. Da es wahrscheinlich ist, daß <persName>NAPOLEON</persName> die Pforte für diesen augenblicklichen
+               Ungehorsam züchtigen wird, so wünsche ich, daß wir diese Gelegenheit nicht versäumen,
+               irgendwo längs der türkischen Grenze uns ein arrondissement zu verschaffen.</p>
+            <p>Was übrigens noch aus allem dem hervorgehen wird, kann ich ungeachtet des prophetischen
+               Geistes, den Sie mir zutrauen, nicht voraussehen. Indessen geht das eiserne Schicksal seinen
+               fürchterlichen zermalmenden Gang unaufgehalten fort, und nirgends steht ein Herrmann auf,
+               der das fremde Joch mutig in Stücken und die Großen in Ketten schlüge, welche feig oder
+               niedrig genug waren, aus Zagheit oder des schnöden Gewinnes willen Vaterland, Eigentum und
+               Ehren zu opfern und einem fremden Götzen schändlich zu huldigen.</p>
+            
+            <closer>Mein politischer Glaube bleibt unerschütterlich so wie die Hochachtung und Freundschaft,
+               mit der ich bin <salute>Ihr ergebenster Freund <persName>SAURAU</persName></salute></closer>
+         </div>
+      </body>
+  </text>
+</TEI>
